@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  background-image: url('../images/sale1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23%;
+  margin-left: 55%;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
